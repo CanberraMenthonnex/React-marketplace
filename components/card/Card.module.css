@@ -1,0 +1,51 @@
+.cards{
+    background-color: rgb(56, 50, 65);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: white;
+    width: 15rem;
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTitle{
+    font-size: 1.2rem;
+}
+
+.cardImgae{
+    width: 3000px;
+}
+
+.cardsDescription{
+    width: 100%;
+}
+
+.priceCardSpan{
+    font-size: 0.8rem;
+}
+
+.cardsFooter{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonInfo{
+    height: 2rem;
+    width: 4rem;
+    color: white;
+    background-color: rgb(31, 199, 212);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 8px 12px -3px #00000042;
+    transition-duration: 0.2s;
+}
+
+.buttonInfo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
